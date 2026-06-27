@@ -1,0 +1,5 @@
+Starting Nmap 7.98 at 2026-06-26
+Host is up.
+Not shown: 999 closed tcp ports
+PORT   STATE SERVICE
+22/tcp open  ssh
