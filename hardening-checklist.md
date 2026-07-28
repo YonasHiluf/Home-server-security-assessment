@@ -11,4 +11,3 @@
 ## 3. Fail2ban
 - Action: Installed, enabled, and started Fail2ban
 - Status: Complete
-

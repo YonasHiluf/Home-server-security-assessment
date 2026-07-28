@@ -20,9 +20,8 @@ Identified risks, applied hardening steps, and verified improvements.
 - Hardening Index: 61
 - Firewall: Active
 - Intrusion software: detected
-- SSH: root login disabled, auth attemps limited to 4 and enforced by Fail2ban
+- SSH: root login disabled, auth attempts limited to 4 and enforced by Fail2ban
 
 ## Conclusion
 Three medium findings resolved. System exposure reduced.
 Project demonstrates baseline defensive security workflow.
-
