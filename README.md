@@ -20,6 +20,6 @@ Own devices and authorized environments only.
 ## Deliverables
 - `risk-register.md` — identified risks and severity
 - `hardening-checklist.md` — applied fixes
-- `nmap-before.txt` & `scans/nmap-after.txt`
-- `lynis-before.txt` & `scans/lynis-after.txt`
+- `nmap-before.txt` & `nmap-after.txt`
+- `lynis-before.txt` & `lynis-after.txt`
 - `final-report.md` — summary of findings and remediation
