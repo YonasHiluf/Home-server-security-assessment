@@ -1,7 +1,6 @@
 # Home Server Security Assessment
 
-A beginner cybersecurity portfolio project performing a baseline security 
-assessment on a Linux home server environment.
+An independent cybersecurity portfolio project performing a baseline security assessment and hardening pass on a Linux home server environment.
 
 ## What This Is
 Acting as a junior security analyst: document the environment, identify 
