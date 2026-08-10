@@ -16,15 +16,22 @@
 
 ## v2 - Lynis Suggestion Remediation (July 2026)
 
-Baseline: lynis-current.txt, 1 warning / 38 suggestions
+Baseline: lynis-current.txt, 2 warning / 38 suggestions (Highest Yield Fixes)
 
-| # | Finding                      | Severity   | Status      | Fix Applied | Index After | 
-|---|------------------------------|------------|-------------|-------------|-------------|
-| 1 | /etc/sudoers.d permissions   | Warning    | Not Started |             |             |
-| 2 | Vulnerable packages present  | Warning    | Not Started |             |             |
-| 3 | sshd_config suggestions      | Suggestion | Not Started |             |             |
-| 4 | PAM password strength        | Suggestion | Not Started |             |             |
-| 5 | Password hashing methods     | Suggestion | Not Started |             |             |
-| 6 | Accounts without expire date | Suggestion | Not Started |             |             |
+| # | Finding                      | Severity   | Status      | Fix Applied                                                     | Index After                  | 
+|---|------------------------------|------------|-------------|-----------------------------------------------------------------|------------------------------|
+| 1 | /etc/sudoers.d permissions   | Warning    | Resolved    | Patched 'Others' access (regular users can't access sudoers dir |                              |
+| 2 | Vulnerable packages present  | Warning    | Resolved    | Patched to current, no security packages left                   | 67 (fixed 1 & 2)             |
+| 3 | sshd_config suggestions      | Suggestion | Resolved    | Patched so no one can view except root (not group or others)    | 67 (confirmed w test status) |
+| 4 | PAM password strength        | Suggestion | Resolved    | Installed Libpasswdqc files + update (went down, came up aftr)  | 66 (confirmed via test still down 1)
+)                             |
+
+## v3 - Lynis Suggestion Remediation pt2
+
+| # | Finding                      | Severity   | Status      | Fix Applied                                                     | Index After      |
+|---|------------------------------|------------|-------------|-----------------------------------------------------------------|------------------|
+| 5 | Password hashing methods     | Suggestion | Not Started |                                                                 |                  |
+| 6 | Accounts without expire date | Suggestion | Not Started |                                                                 |                  |
 | | |
+
 
