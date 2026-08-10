@@ -1,7 +1,6 @@
 # Home Server Security Assessment
 
-A beginner cybersecurity portfolio project performing a baseline security 
-assessment on a Linux home server environment.
+An independent cybersecurity portfolio project performing a baseline security assessment and hardening pass on a Linux home server environment.
 
 ## What This Is
 Acting as a junior security analyst: document the environment, identify 
@@ -20,6 +19,6 @@ Own devices and authorized environments only.
 ## Deliverables
 - `risk-register.md` — identified risks and severity
 - `hardening-checklist.md` — applied fixes
-- `scans/nmap-before.txt` & `scans/nmap-after.txt`
-- `scans/lynis-before.txt` & `scans/lynis-after.txt`
+- `nmap-before.txt` & `nmap-after.txt`
+- `lynis-before.txt` & `lynis-after.txt`
 - `final-report.md` — summary of findings and remediation
