@@ -26,12 +26,4 @@ Baseline: lynis-current.txt, 2 warning / 38 suggestions (Highest Yield Fixes)
 | 4 | PAM password strength        | Suggestion | Resolved    | Installed Libpasswdqc files + update (went down, came up aftr)  | 66 (confirmed via test still down 1)
 )                             |
 
-## v3 - Lynis Suggestion Remediation pt2
-
-| # | Finding                      | Severity   | Status      | Fix Applied                                                     | Index After      |
-|---|------------------------------|------------|-------------|-----------------------------------------------------------------|------------------|
-| 5 | Password hashing methods     | Suggestion | Not Started |                                                                 |                  |
-| 6 | Accounts without expire date | Suggestion | Not Started |                                                                 |                  |
-| | |
-
 
